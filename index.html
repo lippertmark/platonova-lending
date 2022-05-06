@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Платонова Галина - health-coach</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <link rel="stylesheet" href="styles/style.css">
+        
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+        <!--<link rel="stylesheet" href="css/magnific-popup.css">-->
+        <meta name="description" content="Профессиональный нутрициолог, который поможет решить проблемы с питанием. Дефициты, лишний или недостаточный вес, нехватка сил - ко всему индивидуальный подход.">
+        <meta name="keywords" content="профессиональный, нутрициолог, диетолог, правильное, питание, план, здоровье, здоровое, похудение, набор, пищевые, привычки, меню, рецепты, рацион, здоровый образ жизни, зож, сохранение, укрепление, тренер, дефицит, личный тренер, коуч">
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(85030306, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/85030306" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        <style>
+            #myImg {
+                border-radius: 5px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            #myImg:hover {opacity: 0.7;}
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 20;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.9);
+            }
+            @media (max-width: 1000px) {
+                .modal{
+                    padding-top: 150px;
+                }
+            }
+            .modal-content {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 700px;
+            }
+            #caption {
+                margin: auto;
+                display: block;
+                width: 80%;
+                max-width: 700px;
+                text-align: center;
+                color: #ccc;
+                padding: 10px 0;
+                height: 150px;
+            }
+            .modal-content, #caption { 
+                animation-name: zoom;
+                animation-duration: 0.6s;
+            }
+            @keyframes zoom {
+                from {transform:scale(0)} 
+                to {transform:scale(1)}
+            }
+            .close {
+                position: absolute;
+                top: 15px;
+                right: 35px;
+                color: #f1f1f1;
+                font-size: 40px;
+                font-weight: bold;
+                transition: 0.3s;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #bbb;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            @media only screen and (max-width: 700px){
+                .modal-content {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="head">
+            <div class="wrapper">
+                <header>
+                    <div class="name"><a href="http://platonovapit.ru/">Галина<br>Платонова</a></div>
+                    <div class="menu">
+                        <a href="#about_me" class="trans_col">Обо мне</a>
+                        <a href="#shop" class="trans_col">Услуги</a>
+                        <a href="#feedback" class="trans_col">Отзывы</a>
+                        <a href="#contact" class="trans_col">Контакты</a>
+                        <div class="social">
+                            <a href="https://t.me/platonovapit" class="trans_sc"><img src="images/tg.svg"></a>
+                            <a href="https://www.instagram.com/platonovagalina/" class="trans_sc"><img src="images/inst.svg"></a>
+                        </div>
+                        
+                    </div>
+                    <a href="#contact" class="main__button trans_sc">
+                        <p style="color: #345F4C;">Записаться</p>
+                    </a>
+                </header>
+            </div>
+        </section>
+        <section class="main">
+            <div class="wrapper">
+                
+                <div class="main__content">
+                    <div>
+                        <p class="text1">Ни одна диета не поможет <b>похудеть</b>, избавиться от пищевых срывов и <b>проблем со здоровьем</b> без поддержки <b>опытного специалиста</b> по питанию</p>
+
+                    </div>
+                    <a href="#shop" class="main__button2 trans_sc">
+                        <p>Узнать больше</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main__mob">
+            <div class="wrapper">
+                <div class="main__content">
+                    <div>
+                        <p class="text2">Ни одна диета не поможет <b>похудеть</b>, избавиться от пищевых срывов и <b>проблем со здоровьем</b> без поддержки <b>опытного специалиста</b> по питанию</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="rtr" >
+                <img class="main__bg_mob" src="images/bg1_mob.png">
+                <a href="#shop" class="main__button2">
+                    <p>Узнать больше</p>
+                </a>
+            </div>
+           
+        </section>
+        <section id="about_me" class="about_me">
+            <div class="wrapper">
+                <div class="about_me__content">
+                    <img src="images/ph2.png" class="pred_photo"> 
+                    <div class="about_me__data wow fadeInRight">
+                        <img src="images/qov.png" class="qov1" data-wow-duration="1s">
+                        <p class="text1">Меня зовут Галина Платонова, я health-coach и член Российского Союза нутрициологов, диетологов и специалистов пищевой индустрии</p>
+                        <p class="text2">Специально для тебя я написала авторские сборники, которые помогут сделать шаг навстречу здоровью и красивой фигуре</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <div class="wrapper_ar">
+        <div class="arrow-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+        
+
+
+        <!--<img class="arr_ph_deck wow rollin" src="images/arrow.png">-->
+        <section id="shop" class="shop">
+            <!--<img class="arr_ph wow rollIn" src="images/arrow.png">-->
+            <div class="wrapper">
+                <div class="content">
+                    <div class="shop__product">
+                        <img class="shop__photo" src="images/t1.png">
+                        <p class="text1">7 шагов здоровья</p>
+                        <p class="text2">Чек-лист с трекером полезных привычек, которые помогут улучшить состояние здоровья</p>
+                        <button class="shop__button trans_sc_two may" onclick="success()">
+                            <p class="text_abst">Бесплатно</p>
+                        </button>
+
+                    </div>
+                    <div class="shop__product">
+                        <img class="shop__photo" src="images/t2.png">
+                        <p class="text1">Чек-лист: натуропатия против COVID-19</p>
+                        <p class="text2">Проверенная схема лечения натуральными средствами</p>
+                        <button class="shop__button button_an" onclick="ipayCheckout({
+                            amount: 590,
+                            currency:'RUB',
+                            order_number:'',
+                            description: 'Чек-лист: натуропатия против COVID-19},
+                            successCallback_covid,
+                            failureCallback)"
+              
+                             class="btn btn-xs btn-outline btn-primary">
+                            <div class="price">
+                                <p class="cost">590₽</p>
+                            </div>
+                            <p class="text_abst">Купить</p>
+                        </button>
+                    </div>
+                    <div class="shop__product">
+                        <img class="shop__photo" src="images/t3.png">
+                        <p class="text1">Сборник рецептов</p>
+                        <p class="text2">Более 80 блюд для здорового питания с подсчитанными КБЖУ: от завтраков до закусок</p>
+                        <button class="shop__button button_an" onclick="ipayCheckout({
+                            amount: 590,
+                            currency:'RUB',
+                            order_number:'',
+                            description: 'Сборник рецептов здорового питания'},
+                            successCallback_pitanie,
+                            failureCallback)"
+              
+                             class="btn btn-xs btn-outline btn-primary">
+                            <div class="price">
+                                <p class="cost">590₽</p>
+                            </div>
+                            <p class="text_abst">Купить</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popup block covid-->
+        <div id="#popup_covid" class="popup_covid">
+            <a onclick="close_popup()" class="popup_area"></a>
+            <div class="popup_body">
+            <div class="popup_content">
+                <a onclick="close_popup()" class="popup_close"></a>
+                <div class="popup_title">Оплата прошла успешно</div>
+                <div class="popup_text">Введите свою почту, для получения документа</div>
+                <div>
+                <form action='send_covid.php' method='POST'>
+                    <div class="pole mgt20">
+                    <input name="email_covid" type="text">
+                    </div>
+                    <div class="pole mgt20">
+                    <button class="shop__button header-button" onclick="close_popup()" type="submit">Отправить</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+  
+        <!-- Popup block free-->
+        <div id="#popup_free" class="popup_free">
+            <a onclick="close_popup()" class="popup_area"></a>
+            <div class="popup_body">
+            <div class="popup_content">
+                <a onclick="close_popup()" class="popup_close"></a>
+                <div class="popup_title">Введи почту,</div>
+                <div class="popup_text">чтобы получить свой бесплатный чек чек-лист</div>
+                <div>
+                <form action='send_free.php' method='POST'>
+                    <div class="pole mgt20">
+                    <input name="email_free" type="text">
+                    </div>
+                    <div class="pole mgt20">
+                    <button class="shop__button header-button" onclick="close_popup()" type="submit">Отправить</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+  
+        <!-- Popup block pitanie-->
+        <div id="#popup_pitanie" class="popup_pitanie">
+            <a onclick="close_popup()" class="popup_area"></a>
+            <div class="popup_body">
+            <div class="popup_content">
+                <a onclick="close_popup()" class="popup_close"></a>
+                <div class="popup_title">Оплата прошла успешно</div>
+                <div class="popup_text">Введите свою почту, для получения документа</div>
+                <div>
+                <form action='send_pitanie.php' method='POST'>
+                    <div class="pole mgt20">
+                    <input name="email_pitanie" type="text">
+                    </div>
+                    <div class="pole mgt20">
+                    <button class="shop__button header-button" onclick="close_popup()" type="submit">Отправить</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
+        <section class="telegram">
+            <div class="wrapper">
+                <p class="telegram_lb">СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ</p>
+                <div class="telegram_block">
+                    <div class="telegram__left">
+                        <img src="images/tg_photo.png" alt="" class="telegram__img">
+                    </div>
+
+                    <div class="telegram__right">
+                        <p class="text1">
+                            Пройди опрос моего цифрового помощника в Telegram, чтобы узнать все о состоянии своего здоровья <split class="text1_big">тебя ждут:</split>
+                        </p>
+                        <ul>
+                            <li><p>подробная анкета, прохождение которой займет не более 10 минут</p></li>
+                            <li><p>возможность записаться на индивидуальную консультацию со мной</p></li>
+                            <li><p>рекомендации по улучшению здоровья и состояния организма</p></li>
+                        </ul>
+                        <a class="telegram__button" href="https://t.me/digital_galina_bot">
+                            <p>Перейти к цифровой копии</p>
+                            <img src="images/bxl-telegram.svg" alt="" class="telegram__button-img">
+                        </a>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="for-us">
+            <div class="wrapper">
+                <p class="for-us__lb">ДЛЯ КОГО МОЯ ИНФОРМАЦИЯ?</p>
+                <div class="for-us__row">
+                    <div class="green-item item">
+                        <p class="for-us__text">для тех, кто хочет начать правильно питаться и вести ЗОЖ</p>
+                    </div>
+                    <div class="img-item item">
+                        <img src="images/card_three.JPG" alt="">
+                    </div>
+                    <div class="border-item item">
+                        <p class="for-us__text">для тех, кто хочет восстановиться после COVID-19</p>
+                    </div>
+                </div>
+                <div class="for-us__row">
+                    <div class="img-item item">
+                        <img src="images/card_one.JPG" alt="">
+                    </div>
+                    <div class="green-item item">
+                        <p class="for-us__text">для тех, кому трудно составлять меню правильного питания</p>
+                    </div>
+                    <div class="img-item item">
+                        <img src="images/card_two.JPG" alt="">
+                    </div>
+                </div>
+                <div class="for-us__row">
+                    <div class="border-item item">
+                        <p class="for-us__text">для тех, кто хочет избавиться от срывов и перееданий</p>
+                    </div>
+                    <div class="img-item item">
+                        <img src="images/card_four.JPG" alt="">
+                    </div>
+                    <div class="green-item item">
+                        <p class="for-us__text">для тех, кто устал от диет</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="for-us-mob">
+            <div class="wrapper">
+                <p class="for-us__lb">ДЛЯ КОГО МОЯ ИНФОРМАЦИЯ?</p>
+                <div class="for-us__row">
+                    <div class="green-item item">
+                        <ul>
+                            <li><p>для тех, кто хочет восстановиться после COVID-19</p></li>
+                            <li><p>для тех, кто хочет начать правильно питаться и вести ЗОЖ</p></li>
+                            <li><p>для тех, кто устал от диет</p></li>
+                        </ul>
+                    </div>
+                    <div class="img-item item">
+                        <img src="images/card_three.JPG" alt="">
+                    </div>
+                    <div class="border-item item">
+                        <ul>
+                            <li><p>для тех, кому трудно составлять меню правильного питания</p></li>
+                            <li><p>для тех, кто хочет избавиться от срывов и перееданий</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="expert">
+            <div class="wrapper">
+                <p class="expert__lb">ЭКСПЕРТНОСТЬ</p>
+                <div class="content">
+                    <div class="expert__text">
+                        <img src="images/qov.png" class="qov1 wow rotateIn">
+                        <p class="text1">Я дипломированный диетолог с 15-лентим опытом ЗОЖ и прохождением 3 курсов ведущих школ нутрициологии</p>
+                        <img src="images/qov2.png" style="margin-left: 100%;" class="no_mob">
+                    </div>
+                    <div class="expert__achivments wow fadeInRight" data-wow-duration="1s">
+                        <div class="slider">
+                            <div class="expert__ach">
+                                <img id="myImg01" src="images/img1.jpg" class="expert__photo">
+                            </div>
+                            <div class="expert__ach">
+                                <img id="myImg02" src="images/img2.jpg" class="expert__photo">
+                            </div>
+                            <div class="expert__ach">
+                                <img id="myImg03" src="images/img3.jpg" class="expert__photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+<script>
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg01');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+         // Get the image and insert it inside the modal - use its "alt" text as a caption
+         var img = document.getElementById('myImg02');
+        var modalImg = document.getElementById("img0");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+         // Get the image and insert it inside the modal - use its "alt" text as a caption
+         var img = document.getElementById('myImg03');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+        modal.style.display = "none";
+        }
+</script>
+
+        <section id="feedback" class="feedback">
+            <div class="wrapper">
+                <div class="content">
+                    <p class="feedback__lb">ОТ<br>ЗЫ<br>ВЫ</p>
+                    <p class="feedback__lb_mob">ОТЗЫВЫ</p>
+                    <div class="slider wow fadeInRight">
+                        <div class="feedback__block">
+                            <div class="feedback__info">
+                                <img src="images/ava1.jpg" class="feedback__avatar">
+                                <p class="feedback__name">Людмила,<br>24 года</p>
+                            </div>
+                            
+                            <p class="feedback__feedback">Без вас, попытки начать правильно питаться были обречены на неудачу и ещё больший набор веса..<br>
+                                А так я знаю, что у меня есть наставник и есть первые результаты и нет желания пойти и объесться) <br>
+                                <div class="unshow">И без сладкого я получается уже 10 дней и пью хром, мне, конечно, хочется чего-то вкусненького, но нет такой нереальной тяги, как была раньше)</div></p>
+                                <div class="feedback__margin"></div>
+                                <a onclick="show()" class="show">Читать полностью</a>
+                        </div>
+                        <script>
+                            function show() {
+                                document.getElementsByClassName('unshow')[0].style= "display: block;";
+                                document.getElementsByClassName('show')[0].style= "display: none;";
+                            }
+                        </script>
+                        <div class="feedback__block">
+                            <div class="feedback__info">
+                                <img src="images/ava2.jpg" class="feedback__avatar">
+                                <p class="feedback__name">Ольга,<br>34 года</p>
+                            </div>
+                            
+                            <p class="feedback__feedback">Благодаря Вам я пересмотрела себя и смогла произвести колоссальную работу над внешним и внутренним миром! Благодарю Вас от чистого сердца — Вы прекрасный тренер🥰                            </p>
+                        </div>
+                        <div class="feedback__block">
+                            <div class="feedback__info">
+                                <img src="images/ava3.jpg" class="feedback__avatar">
+                                <p class="feedback__name">Фарида,<br>36 лет</p>
+                            </div>
+                            
+                            <p class="feedback__feedback">Вообще в шоке от себя. В " Эти дни" Вообще у меня был "сладостный Бум" а, сейчас его нет😆 не по себе конечно... Но Ваше Напутствие истинно, поэтому буду держаться                            </p>
+                        </div>
+                        <div class="feedback__block">
+                            <div class="feedback__info">
+                                <img src="images/ava6.jpg" class="feedback__avatar">
+                                <p class="feedback__name">Георгица,<br>32 года</p>
+                            </div>
+                            
+                            <p class="feedback__feedback">За месяц похудела почти на 5 кг. Булки и печенья вообще перехотела, а раньше трескала...                            </p>
+                        </div>
+                        <div class="feedback__block">
+                            <div class="feedback__info">
+                                <img src="images/ava7.jpg" class="feedback__avatar">
+                                <p class="feedback__name">Катерина</p>
+                            </div>
+                            
+                            <p class="feedback__feedback">Я почти отказалась от хлеба (бывает крайне редко) после того, как присоединилась к каналу. Сахар почти не ем (позволяю себе утром с кофе одну натуральную мармеладку около 60 калорий). И есть эффект за эти 3-4 недели.                             </p>
+                        </div>
+                        <div class="feedback__block">
+                            <div class="feedback__info">
+                                <img src="images/ava8.jpg" class="feedback__avatar">
+                                <p class="feedback__name">Илина</p>
+                            </div>
+                            
+                            <p class="feedback__feedback">Присоединилась к каналу,  когда на нем было человек 300. От всей души поздравляю,  что канал так быстро растет!  Это оправдано, спасибо за бесценную информацию 😍</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Подключаем jQuery -->
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                    <!-- Подключаем слайдер Slick -->
+                    <script src="js/slick.min.js"></script>
+                    <!-- Подключаем файл скриптов -->
+                    <script src="js/script.js"></script>
+
+
+                    <!--<div class="feedback__block">
+                        <div class="feedback__info">
+                            <img src="images/ava1.jpg" class="feedback__avatar">
+                            <p class="feedback__name">Елизавета<br>Сергеева</p>
+                        </div>
+                        
+                        <p class="feedback__feedback">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem auctor tellus amet lobortis ac purus sed ut ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem auctor tellus amet lobortis ac purus sed ut ac.</p>
+                    </div>-->
+                    <div class="feedback__text">
+                        <img src="images/qov.png">
+                        <p class="text1">Свое здоровье и питание мне доверили уже более 60 человек, которым я лично помогла похудеть, наладить рацион и избавиться от дефицитов. Мой канал читает больше 5 000 человек, а аудитория в Instagram продолжает расти. Присоединяйся и ты!</p>
+                        <img src="images/qov2.png" style="margin-left: 100%;" class="no_mob">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="footer">
+            <div class="wrapper">
+                <div class="content">
+                    <div class="footer__socials">
+                        <a href="https://t.me/platonovaG" class="footer__social_but trans_sc_two wow fadeInLeft">
+                            <img src="images/soc_tg.svg" class="footer__soc_ph">
+                            <p class="text_soc">Телеграм канал</p>
+                        </a>
+                        <a href="https://t.me/platonovapit" class="footer__social_but trans_sc_two wow fadeInLeft">
+                            <img src="images/soc_tg.svg" class="footer__soc_ph">
+                            <p class="text_soc">Личный телеграм</p>
+                        </a>
+                        <a href="https://www.instagram.com/platonovagalina/" class="footer__social_but inst trans_sc_two wow fadeInLeft">
+                            <img src="images/soc_inst.svg" class="footer__soc_ph">
+                            <p class="text_soc no_mob">Я в инстаграм</p>
+                        </a>
+                    </div>
+                    <div class="footer__buttons">
+                        <a href="https://t.me/digital_galina_bot" class="footer__button trans_sc_two">
+                            <p class="text_course">Записаться на консультацию<br><span class="request">(перед записью необходимо пройти анкету)</span></p>
+                        </a>
+                        <a href="https://t.me/platonovapit" class="footer__button trans_sc_two">
+                            <p class="text_course">Записаться на ведение</p>
+                        </a>
+                    </div>
+                    <div class="footer__buttons_mob">
+                        <a href="https://t.me/platonovapit" class="footer__button trans_sc_two" style="margin-bottom: 20px;">
+                            <p class="text_course">Записаться на консультацию<br><span class="request">(перед записью необходимо пройти анкету)</span></p>
+                        </a>
+                        <a href="https://t.me/platonovapit" class="footer__button trans_sc_two">
+                            <p class="text_course">Записаться на ведение</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="foot">
+                    <div class="text">
+                        <p class="text_copyright">© 2021 sitelink.com All rights reserved.</p>
+                        <p class="text_design">design by vasilyev<br><a href="https://t.me/lippert_mark">developed by Lippert Mark</a></p>
+
+                    </div>
+                    <div class="contract">
+                        <a href="oferta.html" class="oferta">договор офферты</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="https://securepayments.sberbank.ru/payment/docsite/assets/js/ipay.js"></script>
+        <script src="js/pay.js"></script>
+        <!-- Подключаем jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <!-- Подключаем слайдер Slick -->
+        <script src="js/slick.min.js"></script>
+        <!-- Подключаем файл скриптов -->
+        <script src="js/script_two.js"></script>
+        <script>
+            function change(){
+                document.getElementById("simple").innerHTML="Новый текст!";
+            }
+        </script>
+
+    </body>
+</html>
