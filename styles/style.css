@@ -911,21 +911,7 @@ ul {
 .cost{
     width: 100%;
 }
-.t1{
-    background-image: url('../images/p_bg_health.png');
-    background-repeat: no-repeat;  
-    background-size: cover;
-}
-.t2{
-    background-image: url('../images/p_bg_covid.png');
-    background-repeat: no-repeat;  
-    background-size: contain;
-}
-.t3{
-    background-image: url('../images/p_bg_eat.png');
-    background-repeat: no-repeat;  
-    background-size: contain;
-}
+
 /*
 .expert{
     height: 400px;
@@ -1242,7 +1228,7 @@ ul {
 
 .arrow-down {
     margin: 30px;
-    margin-left: calc(50%-15px);
+    margin-left: calc(50% - 15px);
 }
 .arrow-down span {
     display: block;
