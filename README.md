@@ -9,7 +9,7 @@ Desktop version
 
 Mobile version
 
-![img.png](sources/mob_preview.png)
+![img.png](sources/mob_pr eview.png)
 
 ## 2. Link
 [http://platonovapit.ru](http://platonovapit.ru)
